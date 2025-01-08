@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.28)  30 DEC 2024 21:51
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.28)  8 JAN 2025 17:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1033,7 +1033,8 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
 \@quotelevel=\count499
 \@quotereset=\count500
- (./Tut8.aux)
+
+No file Tut8.aux.
 \openout1 = `Tut8.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -1046,7 +1047,7 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 22.
- (d:/MyTex/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+(d:/MyTex/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 22.
@@ -1096,9 +1097,11 @@ LaTeX Font Info:    ... okay on input line 22.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 22.
-(./Tut8.out) (./Tut8.out)
 \@outlinefile=\write6
 \openout6 = `Tut8.out'.
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 22.
@@ -1142,7 +1145,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/AkkuratPro(0)/m/it --> TU/AkkuratPro(0)/b/it on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/TeXGyreCursor(0)/m/n --> TU/TeXGyreCursor(0)/b/n on input line 22.
- (d:/MyTex/texlive/2024/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+(d:/MyTex/texlive/2024/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (d:/MyTex/texlive/2024/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
@@ -1264,7 +1267,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: NA (1)[2].png Graphic file (type bmp)
 <NA (1)[2].png>
 
-Overfull \hbox (39.83629pt too wide) in paragraph at lines 93--93
+Overfull \hbox (39.83629pt too wide) in paragraph at lines 95--95
  [] 
  []
 
@@ -1276,7 +1279,7 @@ Overfull \hbox (39.83629pt too wide) in paragraph at lines 93--93
 File: D:/NA/NA (1)[1].png Graphic file (type bmp)
 <D:/NA/NA (1)[1].png>
 
-Overfull \hbox (39.83629pt too wide) in paragraph at lines 105--105
+Overfull \hbox (39.83629pt too wide) in paragraph at lines 107--107
  [] 
  []
 
@@ -1289,12 +1292,50 @@ Overfull \hbox (39.83629pt too wide) in paragraph at lines 105--105
 [8
 
 ]
+File: Forward.png Graphic file (type bmp)
+<Forward.png>
+
+Overfull \vbox (19.01949pt too high) detected at line 139
+ []
+
+
 
 [9
 
 ]
+File: WhatIsBackpropagation.png Graphic file (type bmp)
+<WhatIsBackpropagation.png>
+
+Overfull \vbox (0.92073pt too high) detected at line 152
+ []
+
+
 
 [10
+
+]
+
+[11
+
+]
+
+[12
+
+]
+
+[13
+
+]
+
+[14
+
+]
+
+[15
+
+]
+
+[16
 
 ]
 \tf@nav=\write7
@@ -1311,19 +1352,37 @@ Overfull \hbox (39.83629pt too wide) in paragraph at lines 105--105
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
-Package rerunfilecheck Info: File `Tut8.out' has not changed.
-(rerunfilecheck)             Checksum: E66318889F965146C0FD286634614B5F;91.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Tut8.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Tut8.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  E66318889F965146C0FD286634614B5F;91.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Tut8
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Tut8.run.xml'.
 \openout1 = `Tut8.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38831 strings out of 474233
- 852766 string characters out of 5743109
- 1731294 words of memory out of 5000000
- 60822 multiletter control sequences out of 15000+600000
- 566183 words of font info for 98 fonts, out of 8000000 for 9000
+ 38931 strings out of 474233
+ 855499 string characters out of 5743109
+ 1734548 words of memory out of 5000000
+ 60896 multiletter control sequences out of 15000+600000
+ 570780 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,12n,137p,827b,834s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Tut8.pdf (10 pages).
+Output written on Tut8.pdf (16 pages).
