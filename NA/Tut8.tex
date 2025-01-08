@@ -9,7 +9,7 @@
 \addbibresource{references.bib}
 
 \title{Leveraging Nonlinear Systems Equation for Efficient Spam Email Detection}
-\author{Group A}
+\author{Maded by Group A}
 
 
 \titlegraphic{\includegraphics[scale=0.25]{680558}}
@@ -85,7 +85,7 @@
 
 %flow chart section
 \begin{frame}{Flow Chart}
-    \frametitle{Basic Flow Chart (Example)}
+    \frametitle{Flow Chart }
     \begin{figure}
         \centering
         \includegraphics[width = 1.1\linewidth]{NA (1)[2]}
@@ -95,7 +95,7 @@
 \end{frame}
 
 \begin{frame}{Flow Chart}
-    \frametitle{Basic Flow Chart (Example)}
+    \frametitle{Flow Chart}
         \begin{figure}
         \centering
         \includegraphics[width=1.1\linewidth]{D:/NA/NA (1)[1]}
@@ -113,10 +113,11 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{Basic Forward}
+    \frametitle{Forward}
     Calculate the result of each node and pass to the next layer, when we reaching the final node, we’ll get the result. That’s the process of forward.
     \\The result $\boldsymbol{Z_1}$ is then passed through the ReLU activation function $\boldsymbol{f}$: 
-    $\boldsymbol{Z_1} = \boldsymbol{X} \boldsymbol{W_1} + \boldsymbol{b_1}$, where $\boldsymbol{f(x)} = \max(0, \boldsymbol{x})$ and $\boldsymbol{A_1} = \boldsymbol{f(Z_1)}$.
+    $\boldsymbol{Z_1} = \boldsymbol{X} \boldsymbol{W_1} + \boldsymbol{b_1}$, where 
+    $\boldsymbol{f(x)} = \max(0, \boldsymbol{x})$ and $\boldsymbol{A_1} = \boldsymbol{f(Z_1)}$.
     \\The output from the hidden layer $\boldsymbol{A_1}$ is passed to the next layer. It is multiplied by the weight matrix $\boldsymbol{W_2}$ and added to the bias $\boldsymbol{b_2}$, resulting in $\boldsymbol{Z_2} = \boldsymbol{A_1}\boldsymbol{W_2} + \boldsymbol{b_2}$. The result $\boldsymbol{Z_2}$ is then passed through the sigmoid activation function $\boldsymbol{g(x)}$ to produce the final output $\boldsymbol{A_2}$, where 
     \[
     \boldsymbol{g(x)} = \frac{\boldsymbol{1}}{\boldsymbol{1} + \boldsymbol{e}^{-\boldsymbol{x}}}, \quad \boldsymbol{A_2} = \boldsymbol{g(Z_2)}.
@@ -175,7 +176,7 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{Evaluating: Loss Fuction-BCE 1}
+    \frametitle{Evaluating: Loss Fuction-BCE}
     \begin{itemize}
 
         \item Binary Cross-Entropy Loss: Binary Cross-Entropy Loss is commonly used for binary classification problems. It measures the performance of a classification model whose output is a probability value between 0 and 1.    
@@ -194,7 +195,7 @@
 \end{frame}
 
 \begin{frame}
-    \frametitle{Evaluating: Loss Fuction-BCE 2}
+    \frametitle{Evaluating: Loss Fuction-CCE}
     Mean Squared Error (MSE) Loss: 
     It measures the average squared difference between the actual and predicted values. 
     \vspace{0.5cm}
@@ -244,6 +245,10 @@ CCE_{\text{avg}} = - \frac{1}{N} \sum_{i=1}^{N\sum_{c=1}^{C}}  y_{ic} \log(p_{ic
 
 \end{frame}
 
+\begin{frame}
+    \frametitle{Model Evaluating and Testing}
+
+\end{frame}
 
 
 
