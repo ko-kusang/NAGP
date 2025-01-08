@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.28)  8 JAN 2025 19:18
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.10.28)  8 JAN 2025 21:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1037,6 +1037,18 @@ Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 
 LaTeX Warning: Label `fig:enter-label' multiply defined.
 
+
+LaTeX Warning: Label `fig:modelE' multiply defined.
+
+
+LaTeX Warning: Label `fig:modelE' multiply defined.
+
+
+LaTeX Warning: Label `fig:modelE' multiply defined.
+
+
+LaTeX Warning: Label `fig:modelE' multiply defined.
+
 )
 \openout1 = `Tut8.aux'.
 
@@ -1296,7 +1308,7 @@ Overfull \hbox (39.83629pt too wide) in paragraph at lines 107--107
 File: Forward.png Graphic file (type bmp)
 <Forward.png>
 
-Overfull \vbox (19.01949pt too high) detected at line 140
+Overfull \vbox (19.01949pt too high) detected at line 146
  []
 
 
@@ -1307,7 +1319,7 @@ Overfull \vbox (19.01949pt too high) detected at line 140
 File: WhatIsBackpropagation.png Graphic file (type bmp)
 <WhatIsBackpropagation.png>
 
-Overfull \vbox (0.92073pt too high) detected at line 153
+Overfull \vbox (0.92073pt too high) detected at line 159
  []
 
 
@@ -1323,6 +1335,9 @@ Overfull \vbox (0.92073pt too high) detected at line 153
 [12
 
 ]
+File: BCE.jpg Graphic file (type bmp)
+<BCE.jpg>
+
 
 [13
 
@@ -1331,6 +1346,9 @@ Overfull \vbox (0.92073pt too high) detected at line 153
 [14
 
 ]
+File: MSE.jpg Graphic file (type bmp)
+<MSE.jpg>
+
 
 [15
 
@@ -1339,8 +1357,28 @@ Overfull \vbox (0.92073pt too high) detected at line 153
 [16
 
 ]
+File: CCE.jpg Graphic file (type bmp)
+<CCE.jpg>
+
 
 [17
+
+]
+File: LossFunction.png Graphic file (type bmp)
+<LossFunction.png>
+File: modelE.jpg Graphic file (type bmp)
+<modelE.jpg>
+
+
+[18
+
+]
+
+[19
+
+]
+
+[20
 
 ]
 \tf@nav=\write7
@@ -1368,12 +1406,12 @@ Package logreq Info: Writing requests to 'Tut8.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38942 strings out of 474233
- 855613 string characters out of 5743109
- 1735854 words of memory out of 5000000
- 60901 multiletter control sequences out of 15000+600000
- 570780 words of font info for 131 fonts, out of 8000000 for 9000
+ 39001 strings out of 474233
+ 856574 string characters out of 5743109
+ 1736046 words of memory out of 5000000
+ 60953 multiletter control sequences out of 15000+600000
+ 570788 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,12n,137p,827b,834s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Tut8.pdf (17 pages).
+Output written on Tut8.pdf (20 pages).

@@ -108,7 +108,13 @@
 
 \begin{frame}{Methodology}
     \frametitle{Methodology}
-
+    \textbf{Backpropagation}\\
+    \vspace{0.3cm}
+    Backpropagation is enhanced by incorporating nonlinear system equations, which govern the behavior of activation functions like sigmoid or ReLU. These nonlinearities allow the model to capture complex patterns in data, improving tasks like spam detection. Nonlinear gradients enable precise adjustments to weights and biases, driving faster convergence and better performance throughout training.\\
+    \vspace{0.5cm}
+    \textbf{Loss Functions}\\
+    \vspace{0.3cm}
+    Nonlinear system equations in loss functions, such as Binary Cross-Entropy or Categorical Cross-Entropy, allow the model to handle outputs as probabilities. This nonlinearity ensures sensitive loss calculations, guiding the model towards better solutions. As training progresses, the loss decreases and stabilizes, enhancing the model’s ability to detect complex patterns, like spam, effectively and reliably.
 
 \end{frame}
 
@@ -181,17 +187,29 @@
 
         \item Binary Cross-Entropy Loss: Binary Cross-Entropy Loss is commonly used for binary classification problems. It measures the performance of a classification model whose output is a probability value between 0 and 1.    
             \[
-              E = -\left[\quad y \log(p) + (1 - y) \log(1 - p) \quad\right]
+              E = -\left[\quad y * \log(p) + (1 - y) * \log(1 - p) \quad\right]
             \]
 
         \item Mean Squared Error (MSE) Loss  : It measures the average squared difference between the actual and predicted values.
             \[
-                BCE_{\textbf{avg}} = - \frac{1}{N} \sum_{i=1}^{N} \left[\quad y_i \log(p_i) + (1 - y_i) \log(1 - p_i) \quad\right]
+                BCE_{\textbf{avg}} = - \frac{1}{N} \sum i = 1^N \left[\quad y_i * \log(p_i) + (1 - y_i) * \log(1 - p_i) \quad\right]
             \]
         \item Categorical Cross-Entropy Loss(CCE) :It measures the performance of a classification model whose output is a probability distribution over multiple classes. 
             \[
             \frac{\partial BCE }{\partial p}  \quad=\quad \frac{p-y }{p(1-p)} \]
     \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{ Loss Fuction-BCE}
+   \begin{figure}
+            \begin{center}
+                \includegraphics[width=1\linewidth]{BCE.jpg}
+                \caption{Training \textbf{BCE} Loss Epochs }
+                \label{fig:modelE}
+            \end{center}
+        
+    \end{figure}
 \end{frame}
 
 \begin{frame}
@@ -208,13 +226,25 @@
 
         \item \textbf{he Mean Squared Error Loss for batch samples is:}
         \[
-        MSE_{\textbf{avg}}= \frac{1}{N} \sum_{i=1}^{N} (y_i - y'_i)^2
+        MSE_{\textbf{avg}}= \frac{1}{N} \sum i = 1^N (y_i - y'_i)^2
         \]
         \item \textbf{The gradient of MSE:}
        \[
        \frac{\partial MSE}{\partial y'} =  2(y-y')^2
        \]
     \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{ Loss Fuction-MSE}
+   \begin{figure}
+            \begin{center}
+                \includegraphics[width=1\linewidth]{MSE.jpg}
+                \caption{Training \textbf{MSE} Loss Epochs }
+                \label{fig:modelE}
+            \end{center}
+        
+    \end{figure}
 \end{frame}
 
 \begin{frame}
@@ -233,12 +263,12 @@
         \item \textbf{Categorical Cross-Entropy Loss for batch samples is }
         
 \[
-CCE_{\text{avg}} = - \frac{1}{N} \sum_{i=1}^{N\sum_{c=1}^{C}}  y_{ic} \log(p_{ic})
+CCE_{\text{avg}} = - \frac{1}{N} \sum_{i=1}^{N\sum_{c=1}^{C}}  y_{ic} * \log(p_{ic})
 \]
         
         \item \textbf{The gradient of CCE:}
        \[
-       \frac{\partial MSE}{\partial y'} =  2(y-y')^2
+       \frac{\partial CCE}{P_c} =  p_c - y_c
        \]
     \end{itemize}
 
@@ -246,7 +276,45 @@ CCE_{\text{avg}} = - \frac{1}{N} \sum_{i=1}^{N\sum_{c=1}^{C}}  y_{ic} \log(p_{ic
 \end{frame}
 
 \begin{frame}
+    \frametitle{ Loss Fuction-CCE}
+   \begin{figure}
+            \begin{center}
+                \includegraphics[width=1\linewidth]{CCE.jpg}
+                \caption{Training \textbf{CCE} Loss Epochs }
+                \label{fig:modelE}
+            \end{center}
+        
+    \end{figure}
+\end{frame}
+
+\begin{frame}
     \frametitle{Model Evaluating and Testing}
+
+    The model shows effective learning, with a consistent decrease in loss and a steady increase in accuracy over epochs,
+     reaching \textbf{0.9565}. This indicates improved performance and gradual stabilization,
+     with diminishing loss reductions in further training.
+   \begin{figure}[h]
+        \begin{minipage}[t]{0.35\linewidth}
+            \begin{flushleft}
+                \includegraphics[width=\linewidth]{LossFunction.png}
+                \caption{Training Loss Over Epochs }
+                \label{fig:modelE}
+            \end{flushleft}
+        \end{minipage}
+        \hfill
+        \begin{minipage}[t]{0.5\linewidth}
+            \begin{flushright}
+                \includegraphics[width=\linewidth]{modelE.jpg}
+                \caption{Accuracy Over Epochs}
+                \label{fig:modelE}
+            \end{flushright}
+        \end{minipage}
+    \end{figure}
+    
+
+
+    
+
 
 \end{frame}
 
